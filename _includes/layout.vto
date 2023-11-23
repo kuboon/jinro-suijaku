@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja" color-mode="user">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>じんろうすいじゃく 人狼衰弱</title>
-  <link rel="stylesheet" href="mvp.css">
+  <link rel="stylesheet" href="/mvp.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8GB703NTR"></script>
   <script>
@@ -14,9 +14,9 @@
 </head>
 <body>
   <header>
-    <h1>じんろうすいじゃく 人狼衰弱</h1>
+    <h1>{{ title }}</h1>
   </header>
-  <main>{{ content }}</main>
+  <main>{{ content |> safe }}</main>
   <footer></footer>
 </body>
 </html>
