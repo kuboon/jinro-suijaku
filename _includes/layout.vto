@@ -2,8 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>じんろうすいじゃく 人狼衰弱</title>
-  <link rel="stylesheet" href="/mvp.css">
+  <link rel="stylesheet" href="/assets/style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8GB703NTR"></script>
   <script>
@@ -15,8 +16,19 @@
 <body>
   <header>
     <h1>{{ title }}</h1>
+    <nav>{{ nav }}</nav>
   </header>
-  <main>{{ content |> safe }}</main>
-  <footer></footer>
+  <main>
+    <article>{{ content |> safe }}</article>
+  </main>
+  <footer id="credits">
+    <hr />
+    <ul>
+      <li>制作: ニワトリックゲームズ</li>
+      <li>ゲームデザイン: <a href="https://x.com/kuboon">@kuboon</a></li>
+      <li>イラスト: <a href="https://x.com/niwanotorico">@niwanotorico</a></li>
+    </ul>
+    <p>本ゲームのルール、イラスト等の無断コピーを禁じます。</p>
+  </footer>
 </body>
 </html>

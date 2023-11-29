@@ -18,5 +18,6 @@ site.use(picture());
 site.use(postcss());
 site.use(imagick());
 site.use(vento());
+site.copy('assets/');
 
 export default site;
