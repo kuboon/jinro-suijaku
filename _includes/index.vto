@@ -4,25 +4,25 @@ layout: ./base.vto
 <header>
   <img src="/assets/top.svg" alt="じんろうすいじゃく 12/9(sat) ハ24 モンハミ工房ブース"/>
 </header>
-<main>
   <section class="flex-row blue-box">
     <div>人狼歴15年のプログラマーが</div>
     <div>たどり着いた</div>
     <div>ふたり人狼の自信作</div>
   </section>
-  <div class="flex-row">
+  <div class="flex-row" style="background-color: white; padding: 1rem; column-gap: 1rem;">
     {{ for card of cards }}
       <img src="/assets/{{card.file}}.svg" alt="{{card.alt}}" />
     {{ /for }}
   </div>
-  <article>
-    {{ for line of punch_lines }}
-      <p>{{ line }}</p>
-    {{ /for }}
-  </article>
+  <main>
+    <article>
+      {{ for line of punch_lines }}
+        <p>{{ line }}</p>
+      {{ /for }}
+    </article>
+  </main>
   <section class="flex-row blue-box">
     <div>12/9 (Sat) ハ24</div>
     <div>もんはみ工房ブースにて</div>
     <div>お待ちしております。</div>
   </section>
-</main>
