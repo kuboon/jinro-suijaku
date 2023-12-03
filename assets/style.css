@@ -18,9 +18,16 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+@keyframes reveal {
+  from { opacity: 0; transform: translateX(10%); }
+  to { opacity: 1; transform: translateX(0); }
+}
 .flex-row img {
-  width: 100%;
+  animation: auto linear reveal both;
+  animation-range: entry 25% cover 50%;
+  animation-timeline: view();
   max-width: 500px;
+  width: 100%;
 }
 .flex-col {
   align-items: center;
