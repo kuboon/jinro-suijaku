@@ -14,21 +14,17 @@
   </script>
 </head>
 <body>
-  <header>
-    <h1>{{ title }}</h1>
-    <nav>{{ nav }}</nav>
-  </header>
-  <main>
-    <article>{{ content |> safe }}</article>
-  </main>
+  {{ content |> safe }}
   <footer id="credits">
     <hr />
-    <ul>
-      <li>制作: ニワトリックゲームズ</li>
-      <li>ゲームデザイン: <a href="https://x.com/kuboon">@kuboon</a></li>
-      <li>イラスト: <a href="https://x.com/niwanotorico">@niwanotorico</a></li>
-    </ul>
-    <p>本ゲームのルール、イラスト等の無断コピーを禁じます。</p>
+    <div class="flex-col">
+      <img src="/assets/niwatrick.svg" alt="ニワトリックゲームズ" style="max-width: 500px">
+      <div class="flex-row">
+        <div>ゲームデザイン: <a href="https://x.com/kuboon">@kuboon</a></div>
+        <div>イラスト: <a href="https://x.com/niwanotorico">@niwanotorico</a></div>
+      </div>
+      <div>本ゲームのルール、イラスト等の無断コピーを禁じます。</div>
+    </div>
   </footer>
 </body>
 </html>

@@ -1,5 +1,8 @@
 @import "./mvp.css";
 
+:root {
+  --width-card: 400px;
+}
 body {
   background-image: url("bg.svg");
   font-family: "Helvetica Neue",
@@ -8,4 +11,20 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
+}
+
+.flex-row {
+  column-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-row img {
+  width: 100%;
+  max-width: 500px;
+}
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

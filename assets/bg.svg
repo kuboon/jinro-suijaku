@@ -1,16 +1,1 @@
-<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .card {
-      fill: none;
-      stroke: pink;
-      stroke-width: 1;
-      width: 54px;
-      height: 89px;
-    }
-  </style>
-  <rect class="card" x="35" y="35" rx="5" ry="5" transform="rotate(10 250 250)"/>
-  <rect class="card" x="135" y="55" rx="5" ry="5" transform="rotate(30 250 250)"/>
-  <rect class="card" x="155" y="35" rx="5" ry="5" transform="rotate(120 250 250)"/>
-  <rect class="card" x="215" y="85" rx="5" ry="5" transform="rotate(190 250 250)"/>
-  <rect class="card" x="275" y="35" rx="5" ry="5" transform="rotate(220 250 250)"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 446.72"><defs><style>.cls-1{fill:#f4b2b7;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke-width:0px;}.cls-6{isolation:isolate;}.cls-2{fill:url(#_新規パターンスウォッチ_27);mix-blend-mode:overlay;}.cls-3{fill:#e3a966;}.cls-4{fill:none;}.cls-5{fill:#f6bcc0;}</style><pattern id="_新規パターンスウォッチ_27" x="0" y="0" width="55.13" height="57.6" patternTransform="translate(-5815.65 -5435.13) rotate(22.56) scale(.51 .36) skewX(-35.2)" patternUnits="userSpaceOnUse" viewBox="0 0 55.13 57.6"><rect class="cls-4" width="55.13" height="57.6"/><rect class="cls-1" x="48.24" y="0" width="6.89" height="57.6"/><rect class="cls-1" x="34.46" y="0" width="6.89" height="57.6"/><rect class="cls-5" x="41.35" y="0" width="6.89" height="57.6"/><rect class="cls-1" x="20.67" y="0" width="6.89" height="57.6"/><rect class="cls-5" x="27.57" y="0" width="6.89" height="57.6"/><rect class="cls-1" x="6.89" y="0" width="6.89" height="57.6"/><rect class="cls-5" x="13.78" y="0" width="6.89" height="57.6"/><rect class="cls-5" x="0" y="0" width="6.89" height="57.6"/></pattern></defs><g class="cls-6"><g id="_レイヤー_2"><g id="_レイヤー_3"><rect class="cls-3" width="900" height="446.72"/><rect class="cls-2" width="900" height="446.72"/></g></g></g></svg>

@@ -1,0 +1,23 @@
+---
+layout: ./base.vto
+---
+<header>
+  <img src="/assets/top.svg" alt="じんろうすいじゃく 12/9(sat) ハ24 モンハミ工房ブース"/>
+</header>
+<main>
+  <section class="flex-row">
+    <div>人狼歴15年のプログラマーがたどり着いた</div>
+    <div>ふたり人狼の自信作</div>
+  </section>
+  <div class="flex-row">
+    <img src="/assets/for_couple.svg" alt="カップルで" />
+    <img src="/assets/for_family.svg" alt="親子で" />
+    <img src="/assets/for_business.svg" alt="取り引き先と" />
+    <img src="/assets/for_office.svg" alt="上司と" />
+  </div>
+  <article>
+    {{ for line of punch_lines }}
+      <p>{{ line }}</p>
+    {{ /for }}
+  </article>
+</main>
