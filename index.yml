@@ -1,5 +1,14 @@
 layout: index.vto
 title: じんろうすいじゃく 人狼衰弱
+cards:
+- file: for_couple
+  alt: カップルで
+- file: for_family
+  alt: 親子で
+- file: for_office
+  alt: 上司と
+- file: for_business
+  alt: 取り引き先と
 punch_lines:
 - すぐに遊べる簡単ルールでありながら、騙し合いの可能性は多岐に渡り、熟練するほどに奥の深いプレイを楽しめます。
 - 人狼ゲームの入門としても、上級者同士の腕比べとしても楽しめます。

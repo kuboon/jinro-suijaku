@@ -5,19 +5,24 @@ layout: ./base.vto
   <img src="/assets/top.svg" alt="じんろうすいじゃく 12/9(sat) ハ24 モンハミ工房ブース"/>
 </header>
 <main>
-  <section class="flex-row">
-    <div>人狼歴15年のプログラマーがたどり着いた</div>
+  <section class="flex-row blue-box">
+    <div>人狼歴15年のプログラマーが</div>
+    <div>たどり着いた</div>
     <div>ふたり人狼の自信作</div>
   </section>
   <div class="flex-row">
-    <img src="/assets/for_couple.svg" alt="カップルで" />
-    <img src="/assets/for_family.svg" alt="親子で" />
-    <img src="/assets/for_business.svg" alt="取り引き先と" />
-    <img src="/assets/for_office.svg" alt="上司と" />
+    {{ for card of cards }}
+      <img src="/assets/{{card.file}}.svg" alt="{{card.alt}}" />
+    {{ /for }}
   </div>
   <article>
     {{ for line of punch_lines }}
       <p>{{ line }}</p>
     {{ /for }}
   </article>
+  <section class="flex-row blue-box">
+    <div>12/9 (Sat) ハ24</div>
+    <div>もんはみ工房ブースにて</div>
+    <div>お待ちしております。</div>
+  </section>
 </main>
