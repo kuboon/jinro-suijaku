@@ -6,17 +6,24 @@ nav: |
     <li><a href='/'>トップページ</a></li>
     <li><a href='#story'>ストーリー</a></li>
     <li><a href='#purpose'>ゲームの目的</a></li>
-    <li><a href='#howto'>遊び方</a></li>
+    <li><a href='#detail'>くわしい遊び方</a></li>
     <li><a href='#credits'>作者</a></li>
   </ul>
 ---
 <style>
-  float-right {
+  .float-right {
     float: right;
   }
 </style>
 
 <aside>このページはご購入者様専用となっています。トップページからこのページへのリンクはありませんので、ブックマーク等で保存しておくことをお勧めします。</aside>
+
+<div>
+  <img src="/assets/howto1.svg" alt="" />
+  <img src="/assets/howto2.svg" alt="" />
+  <img src="/assets/howto3.svg" alt="" />
+  <img src="/assets/howto4.svg" alt="" />
+</div>
 
 # ストーリー {#story}
 ある村に、ふたりの開拓者がやってきました。ふたりは、村人たちをひとりずつ仲間に引き入れていきます。ところで、この村には一匹の人狼が潜んでいるとか。。。人狼を味方に引き入れてしまった側は、その正体を隠さなければなりません！
@@ -28,13 +35,15 @@ nav: |
 
 ---
 
-# 遊び方 {#howto}
+# {#howto}
+
+# くわしい遊び方 {#detail}
 ## 準備
 7枚のカード (人狼1枚、占い師2枚、村人4枚) を裏向きでよく混ぜ、場に広げます。
 じゃんけんなどで、先攻、後攻を決めます。 (繰り返し遊ぶ時は交互にします)
 
 ## 取り合いフェーズ
-<img src="/assets/play.svg" alt="" class="float-right">
+<img src="/assets/play.svg" alt="" style="float: right; width: 50%">
 手番のプレイヤーは、場のカードから1枚を取りオモテを見ます。
 カードによって以下の行動をします。
 
