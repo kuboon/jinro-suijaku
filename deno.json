@@ -2,7 +2,8 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "favicon": "deno run --unstable --allow-read=. --allow-write=assets/. --allow-ffi \"https://deno.land/x/faviconize/cmd.ts\" -i \"_includes/favicon.png\"  -o \"assets/\""
   },
   "imports": {
     "lume/": "https://deno.land/x/lume@v1.19.3/"
