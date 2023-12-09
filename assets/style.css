@@ -7,7 +7,7 @@ nav {
   margin-bottom: 1rem;
 }
 body {
-  background-image: url("bg.svg");
+  background-image: url("/assets/bg.svg");
   font-family: "Helvetica Neue",
     Arial,
     "Hiragino Kaku Gothic ProN",
