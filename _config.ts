@@ -10,7 +10,9 @@ import vento from "lume/plugins/vento.ts";
 
 const site = lume();
 
-//site.use(favicon());
+site.use(favicon({
+  input: "/favicon.png",
+}));
 site.use(feed());
 site.use(metas());
 site.use(nav());
