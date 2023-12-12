@@ -1,17 +1,23 @@
 ---
 layout: article.vto
 title: 詳しい遊び方
-nav: |
-  <ul>
-    <li><a href='/'>トップページ</a></li>
-    <li><a href='#story'>ストーリー</a></li>
-    <li><a href='#purpose'>ゲームの目的</a></li>
-    <li><a href='#detail'>くわしい遊び方</a></li>
-    <li><a href='#result'>勝敗</a></li>
-    <li><a href='#tips'>勝利のコツ</a></li>
-    <li><a href='#additional'>さらに楽しむための追加ルール</a></li>
-    <li><a href='#credits'>作者</a></li>
-  </ul>
+nav:
+- href: /
+  text: トップページ
+- href: '#story'
+  text: ストーリー
+- href: '#purpose'
+  text: ゲームの目的
+- href: '#detail'
+  text: くわしい遊び方
+- href: '#result'
+  text: 勝敗
+- href: '#tips'
+  text: 勝利のコツ
+- href: '#additional'
+  text: さらに楽しむための追加ルール
+- href: '#credits'
+  text: 作者
 ---
 <style>
   .float-right {
